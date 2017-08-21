@@ -1,8 +1,8 @@
-This is a Composer-based installer for the [Communications](https://github.com/NREL/profile-communications/tree/8.x-2.05) sub-profile based on the [Lightning](https://www.drupal.org/project/lightning) Drupal distribution. Welcome to the future!
+This is a Composer-based installer for the [Dam](https://github.com/NREL/profile-dam) sub-profile based on the [Lightning](https://www.drupal.org/project/lightning) Drupal distribution. Welcome to the future!
 
 ## Get Started
 ```
-$ composer create-project NREL/communications-project MY_PROJECT
+$ composer create-project NREL/dam-project MY_PROJECT
 ```
 Composer will create a new directory called MY_PROJECT containing a ```docroot``` directory with a full Lightning code base therein. You can then install it like you would any other Drupal site.
 
