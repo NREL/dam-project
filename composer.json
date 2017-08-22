@@ -151,10 +151,6 @@
         "patches": {
             "drupal/core": {
             },
-            "drupal/page_manager": {
-                "2874851 - Clicking a variant in page manager does not open the variant config":
-              "https://www.drupal.org/files/issues/page_manager-2874851-8.patch"
-            },
             "drupal/media_entity_image": {
                 "2875852 - Add Imagick field providers":
                 "https://www.drupal.org/files/issues/media_entity_image-2875852-3-Add-Imagick-field-providers.patch"
