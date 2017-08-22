@@ -154,10 +154,6 @@
             "drupal/media_entity_image": {
                 "2875852 - Add Imagick field providers":
                 "https://www.drupal.org/files/issues/media_entity_image-2875852-3-Add-Imagick-field-providers.patch"
-            },
-            "drupal/metatag": {
-                "2874851 - Drupal fix webprofiler crash":
-                "https://www.drupal.org/files/issues/metatag-n2882954-28.patch"
             }
         }
     }
