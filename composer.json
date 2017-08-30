@@ -42,7 +42,7 @@
         "composer/installers": "^1.0",
         "drupal-composer/drupal-scaffold": "^2.0.0",
         "cweagans/composer-patches": "^1.6.0",
-        "nrel/dam": "^1.0.31"
+        "nrel/dam": "^1.0.32"
     },
     "repositories": [
         {
@@ -113,7 +113,8 @@
           "rm -Rf ./docroot/profiles/contrib/lightning/.git",
           "rm -Rf ./docroot/profiles/contrib/lightning/.gitignore",
           "rm -Rf ./vendor/elasticsearch/elasticsearch/.gitmodules",
-          "rm -Rf ./docroot/profiles/contrib/taxonomy_manager/.git"
+          "rm -Rf ./docroot/profiles/contrib/taxonomy_manager/.git",
+          "patch -p1 -d ./docroot/profiles/contrib/lightning < ./patches/0001-last-4-commits.patch"
       ],
       "post-update-cmd": [
         "DrupalComposer\\DrupalScaffold\\Plugin::scaffold",
