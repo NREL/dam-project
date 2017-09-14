@@ -41,7 +41,7 @@
     "require": {
         "drupal-composer/drupal-scaffold": "^2.0.0",
         "cweagans/composer-patches": "^1.6.0",
-        "nrel/dam": "^1.0.39"
+        "nrel/dam": "^1.0.44"
     },
     "repositories": [
         {
