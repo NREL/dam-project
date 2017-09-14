@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "0e2150090395bf55dd619d9fc7babf5c",
+    "content-hash": "bf39bd13cb3e17fabf32b28231e1a334",
     "packages": [
         {
             "name": "acquia/lightning",
@@ -5618,7 +5618,7 @@
                 },
                 "drupal": {
                     "version": "8.x-1.0-beta2",
-                    "datestamp": "1504685044",
+                    "datestamp": "1504685943",
                     "security-coverage": {
                         "status": "not-covered",
                         "message": "Beta releases are not covered by Drupal security advisories."
@@ -6595,7 +6595,8 @@
             "homepage": "https://www.drupal.org/project/vbo_export",
             "support": {
                 "source": "http://cgit.drupalcode.org/vbo_export"
-            }
+            },
+            "time": "2017-09-13T13:54:43+00:00"
         },
         {
             "name": "drupal/video_embed_field",
@@ -8255,16 +8256,16 @@
         },
         {
             "name": "nrel/dam",
-            "version": "1.0.43",
+            "version": "1.0.44",
             "source": {
                 "type": "git",
                 "url": "https://github.com/NREL/dam.git",
-                "reference": "0e1f7d6c9ae27ae5e9706c0793a2656fc1fa2a82"
+                "reference": "b3d49cedf3436c1b6c28115d9e44cfcb68c1f2d2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/NREL/dam/zipball/0e1f7d6c9ae27ae5e9706c0793a2656fc1fa2a82",
-                "reference": "0e1f7d6c9ae27ae5e9706c0793a2656fc1fa2a82",
+                "url": "https://api.github.com/repos/NREL/dam/zipball/b3d49cedf3436c1b6c28115d9e44cfcb68c1f2d2",
+                "reference": "b3d49cedf3436c1b6c28115d9e44cfcb68c1f2d2",
                 "shasum": ""
             },
             "require": {
@@ -8318,7 +8319,7 @@
             ],
             "description": "Dam profile is the de-facto Drupal swiss army knife for Digital Asset Management.",
             "homepage": "https://github.com/NREL/dam",
-            "time": "2017-09-14T18:55:59+00:00"
+            "time": "2017-09-14T19:53:26+00:00"
         },
         {
             "name": "oomphinc/composer-installers-extender",
